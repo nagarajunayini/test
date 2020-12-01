@@ -1,0 +1,32 @@
+
+<div class="card"  style="background-color: black; width: 35%; margin-top: 10%;margin-left: 30%;">
+
+    <!--Card content-->
+    <div class="card-body px-lg-5">
+
+        <!-- Form -->
+        <form class="text-center" style="color: #757575;" action="#!">
+
+
+            <!-- Name -->
+            <div class="md-form mt-3">
+                <input type="text" id="materialSubscriptionFormPasswords" class="form-control" placeholder="userName" style="padding-left:6%" name="email" [(ngModel)]="email">
+                <label for="materialSubscriptionFormPasswords"><i class="fa fa-user" aria-hidden="true"></i></label>
+            </div>
+
+            <!-- E-mai -->
+            <div class="md-form">
+                <input type="email" id="materialSubscriptionFormEmail" class="form-control" style="padding-left:6%" placeholder="password"  name="password"[(ngModel)]="pwd">
+                <label for="materialSubscriptionFormEmail"><i class="fa fa-lock" aria-hidden="true"></i>
+                </label>
+            </div>
+
+            <!-- Sign in button -->
+            <button class="btn btn-secondary" type="submit" (click)="login()">Login</button>
+
+        </form>
+        <!-- Form -->
+
+    </div>
+
+</div>
